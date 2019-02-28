@@ -1,0 +1,17 @@
+{
+  "name": "jankuchar.cz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jkuchar/jankuchar.cz.git",
+  "author": "Jan Kuchař <honza.kuchar@grifart.cz>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "sass": "^1.17.2"
+  },
+  "scripts": {
+    "sass": "node_modules/.bin/sass www/scss:www/css",
+    "sass-watch": "node_modules/.bin/sass www/scss:www/css --watch"
+  }
+}

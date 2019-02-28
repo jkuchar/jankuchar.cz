@@ -1,0 +1,40 @@
+$lead-font-size: 1.4em;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "cover";
+body {
+	font-size: 20px;
+	color: $gray-400;
+}
+
+main.cover {
+	text-align: center;
+}
+
+h1.cover-heading {
+	font-size: 3em;
+	text-shadow: white 0 0 2px;
+}
+
+.lead {
+	font-weight: bold;
+}
+
+a {
+	color: white;
+	text-shadow: white 0 0 2px;
+}
+
+
+p.title, p.claim {
+	@extend .lead;
+}
+
+// spaces:
+h1.cover-heading {
+	margin-bottom: -8px;
+}
+
+p.claim {
+	margin-bottom: -8px;
+}
